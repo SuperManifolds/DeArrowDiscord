@@ -1,6 +1,6 @@
 /**
  * @name DeArrow
- * @description Alters the titles and thumbnails of YouTube link previews with crowdsources replacements that are more descriptive and less sensationalized.
+ * @description Alters the titles and thumbnails of YouTube link previews with crowdsourced replacements that are more descriptive and less sensationalized.
  * @version 1.0.0
  * @author SuperManifolds
  * @authorId 385879184276193290
@@ -17,7 +17,7 @@ const config = {
 	authorId: "385879184276193290",
 	authorLink: "https://github.com/SuperManifolds/",
 	version: "1.0.0",
-	description: "Alters the titles and thumbnails of YouTube link previews with crowdsources replacements that are more descriptive and less sensationalized.",
+	description: "Alters the titles and thumbnails of YouTube link previews with crowdsourced replacements that are more descriptive and less sensationalized.",
 	website: "",
 	source: "https://github.com/SuperManifolds/DeArrowDiscord/",
 	changelog: [],
