@@ -439,6 +439,10 @@ module.exports = !global.ZeresPluginLibrary ? Dummy : (([Plugin, Api]) => {
 					.appendChild(icon);
 				
 			}).catch((err) => {
+				if (err.statusCode && err.statusCode === 404) {
+					return;
+				}
+
 				console.error(err);
 			});
 		});
